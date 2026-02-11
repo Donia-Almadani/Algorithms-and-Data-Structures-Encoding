@@ -1,13 +1,13 @@
 # Algorithms-and-Data-Structures-Encoding
 
--Compare the efficiency of encoding text file using Huffman coding (Greedy algorithm) and fix-length encoding.
--Data Model: Text files with variety of sizes.
--Target: Implement and evaluate both encoding methods to
+- Compare the efficiency of encoding text file using Huffman coding (Greedy algorithm) and fix-length encoding.
+- Data Model: Text files with variety of sizes.
+- Target: Implement and evaluate both encoding methods to
 measure file size reduction, compression ratio, and
 encoding/decoding runtime.
--Two algorithms implemented in Java:
-*Huffman coding
-*Baseline Fixed-length coding (8 bits)
+- Two algorithms implemented in Java:
+* Huffman coding
+* Baseline Fixed-length coding (8 bits)
 
 ---
 
@@ -16,7 +16,7 @@ Calculate characters frequency (Priority Queue)⟶ Build
 Huffman tree ⟶ Generate prefix-free codewords (left 0,
 right 1) to each character ⟶ Decode using Huffman tree
 
-### 2. Fixed-Length Encoding:
+### 2.Fixed-Length Encoding:
 Assign 8-bits codes to all characters (ASCII) ⟶ Encode the
 text ⟶ Decode the text using the same encoding technique
 
