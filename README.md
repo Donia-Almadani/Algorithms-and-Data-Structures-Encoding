@@ -6,8 +6,8 @@
 measure file size reduction, compression ratio, and
 encoding/decoding runtime.
 - Two algorithms implemented in Java:
-* Huffman coding
-* Baseline Fixed-length coding (8 bits)
+1. Huffman coding
+2. Baseline Fixed-length coding (8 bits)
 
 ---
 
