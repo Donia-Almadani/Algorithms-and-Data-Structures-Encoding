@@ -40,16 +40,16 @@ text ⟶ Decode the text using the same encoding technique
 
 ## CONCLUSION
 
-*Huffman coding consistently achieves a compression ratio of
+* Huffman coding consistently achieves a compression ratio of
 about 0.72 across all file sizes, corresponding to roughly a 28%
 reduction in file size.
-*Baseline fixed-length encoding keeps a constant ratio of 1.0,
+* Baseline fixed-length encoding keeps a constant ratio of 1.0,
 meaning no compression.
-*Huffman encoding time stays low even for large files.
+* Huffman encoding time stays low even for large files.
 Decoding time increases for very large inputs because of tree
 traversal
-*baseline encoding is straightforward but offers no improvement
+* baseline encoding is straightforward but offers no improvement
 in storage or bandwidth usage.
-*Overall, Huffman is more effective and scalable, while baseline
+* Overall, Huffman is more effective and scalable, while baseline
 is unsuitable for applications needing reduced storage or
 optimized transmission.
